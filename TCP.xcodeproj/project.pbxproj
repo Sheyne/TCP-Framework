@@ -73,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368768D813DE02D300A765C1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				36896C0A13DDEA7800775211 /* TCP.h */,
+				36896C2E13DDEB5400775211 /* TCPListener.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 		36896BEE13DDEA7800775211 = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +125,8 @@
 		36896C0313DDEA7800775211 /* TCP */ = {
 			isa = PBXGroup;
 			children = (
-				36896C0A13DDEA7800775211 /* TCP.h */,
+				368768D813DE02D300A765C1 /* Headers */,
 				36896C0B13DDEA7800775211 /* TCP.m */,
-				36896C2E13DDEB5400775211 /* TCPListener.h */,
 				36896C0413DDEA7800775211 /* Supporting Files */,
 			);
 			path = TCP;
@@ -430,6 +438,7 @@
 				36896C2713DDEA7800775211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36896C2813DDEA7800775211 /* Build configuration list for PBXNativeTarget "TCPTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +447,7 @@
 				36896C2A13DDEA7800775211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
