@@ -16,6 +16,7 @@
 		36896C1E13DDEA7800775211 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36896C1C13DDEA7800775211 /* InfoPlist.strings */; };
 		36896C2013DDEA7800775211 /* TCPTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 36896C1F13DDEA7800775211 /* TCPTests.h */; };
 		36896C2213DDEA7800775211 /* TCPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36896C2113DDEA7800775211 /* TCPTests.m */; };
+		36896C2F13DDEB5400775211 /* TCPListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 36896C2E13DDEB5400775211 /* TCPListener.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +35,18 @@
 		36896C0013DDEA7800775211 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		36896C0113DDEA7800775211 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		36896C0213DDEA7800775211 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		36896C0513DDEA7800775211 /* TCP-Info.plist */ = {isa = PBXFileReference; path = "TCP-Info.plist"; sourceTree = "<group>"; };
+		36896C0513DDEA7800775211 /* TCP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCP-Info.plist"; sourceTree = "<group>"; };
 		36896C0713DDEA7800775211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		36896C0913DDEA7800775211 /* TCP-Prefix.pch */ = {isa = PBXFileReference; path = "TCP-Prefix.pch"; sourceTree = "<group>"; };
-		36896C0A13DDEA7800775211 /* TCP.h */ = {isa = PBXFileReference; path = TCP.h; sourceTree = "<group>"; };
+		36896C0913DDEA7800775211 /* TCP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCP-Prefix.pch"; sourceTree = "<group>"; };
+		36896C0A13DDEA7800775211 /* TCP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCP.h; sourceTree = "<group>"; };
 		36896C0B13DDEA7800775211 /* TCP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCP.m; sourceTree = "<group>"; };
 		36896C1213DDEA7800775211 /* TCPTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36896C1313DDEA7800775211 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		36896C1B13DDEA7800775211 /* TCPTests-Info.plist */ = {isa = PBXFileReference; path = "TCPTests-Info.plist"; sourceTree = "<group>"; };
+		36896C1B13DDEA7800775211 /* TCPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCPTests-Info.plist"; sourceTree = "<group>"; };
 		36896C1D13DDEA7800775211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36896C1F13DDEA7800775211 /* TCPTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPTests.h; sourceTree = "<group>"; };
 		36896C2113DDEA7800775211 /* TCPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPTests.m; sourceTree = "<group>"; };
+		36896C2E13DDEB5400775211 /* TCPListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPListener.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				36896C0A13DDEA7800775211 /* TCP.h */,
 				36896C0B13DDEA7800775211 /* TCP.m */,
+				36896C2E13DDEB5400775211 /* TCPListener.h */,
 				36896C0413DDEA7800775211 /* Supporting Files */,
 			);
 			path = TCP;
@@ -154,6 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36896C2F13DDEB5400775211 /* TCPListener.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
