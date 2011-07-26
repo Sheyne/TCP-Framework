@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36100CF213DEF8AB0003945C /* TCP.h in Headers */ = {isa = PBXBuildFile; fileRef = 36896C0A13DDEA7800775211 /* TCP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36896BFE13DDEA7800775211 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36896BFD13DDEA7800775211 /* Cocoa.framework */; };
 		36896C0813DDEA7800775211 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36896C0613DDEA7800775211 /* InfoPlist.strings */; };
 		36896C0C13DDEA7800775211 /* TCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 36896C0B13DDEA7800775211 /* TCP.m */; };
@@ -16,7 +17,7 @@
 		36896C1E13DDEA7800775211 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36896C1C13DDEA7800775211 /* InfoPlist.strings */; };
 		36896C2013DDEA7800775211 /* TCPTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 36896C1F13DDEA7800775211 /* TCPTests.h */; };
 		36896C2213DDEA7800775211 /* TCPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36896C2113DDEA7800775211 /* TCPTests.m */; };
-		36896C2F13DDEB5400775211 /* TCPListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 36896C2E13DDEB5400775211 /* TCPListener.h */; };
+		36896C2F13DDEB5400775211 /* TCPListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 36896C2E13DDEB5400775211 /* TCPListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36896C3113DDEEB500775211 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 36896C3013DDEEB500775211 /* README */; };
 /* End PBXBuildFile section */
 
@@ -73,15 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		368768D813DE02D300A765C1 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				36896C0A13DDEA7800775211 /* TCP.h */,
-				36896C2E13DDEB5400775211 /* TCPListener.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
 		36896BEE13DDEA7800775211 = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +117,8 @@
 		36896C0313DDEA7800775211 /* TCP */ = {
 			isa = PBXGroup;
 			children = (
-				368768D813DE02D300A765C1 /* Headers */,
+				36896C0A13DDEA7800775211 /* TCP.h */,
+				36896C2E13DDEB5400775211 /* TCPListener.h */,
 				36896C0B13DDEA7800775211 /* TCP.m */,
 				36896C0413DDEA7800775211 /* Supporting Files */,
 			);
@@ -169,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36896C2F13DDEB5400775211 /* TCPListener.h in Headers */,
+				36100CF213DEF8AB0003945C /* TCP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
